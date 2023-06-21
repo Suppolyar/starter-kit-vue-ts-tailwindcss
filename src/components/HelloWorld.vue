@@ -1,10 +1,17 @@
 <template>
   <div class="mt-20 text-center text-lg">
-    <h1 class="mb-4 text-4xl font-bold">Hello World</h1>
+    <h1 class="mb-4 text-4xl font-bold">Hello World!</h1>
 
     <p class="mb-4 text-xl">
-      This is my custom template.<br />
-      I will be glad if you put ⭐ on this repository in github! <br />
+      This is my custom template🧑‍💻<br />
+      I will be glad if you put ⭐ on this
+      <a
+        href="https://github.com/Suppolyar/my-work-template"
+        target="_blank"
+        class="font-semibold text-sky-700 hover:underline"
+        >repository in github</a
+      >
+      <br />
       Have a nice day, my friend 🫶
     </p>
 

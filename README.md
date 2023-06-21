@@ -1,18 +1,64 @@
-# Vue 3 + TypeScript + Vite
+# Starter-Kit: Vue 3 + TypeScript + Vite + TailwindCSS + Eslint + Prettier
+Привет! Это небольшой шаблонный проект, который предоставляет готовую конфигурацию для быстрого старта разработки. Вам останется только клонировать проект и начать писать код 😇
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## О шаблоне
 
-## Recommended IDE Setup
+- [Vite](https://vitejs.dev/): Быстрый инструмент для разработки веб-приложений с простой настройкой и лайв-перезагрузкой.
+- [Vue 3](https://v3.vuejs.org/): Прогрессивный JavaScript-фреймворк для построения пользовательских интерфейсов.
+- [Pinia](https://pinia.esm.dev/): Состояний менеджер для Vue 3 с поддержкой TypeScript.
+- [Vue Router](https://router.vuejs.org/): Официальный маршрутизатор для приложений Vue.
+- [Tailwind CSS](https://tailwindcss.com/): Высоко настраиваемый CSS-фреймворк с простыми и интуитивно понятными классами.
+- [ESLint](https://eslint.org/): Инструмент статического анализа кода для выявления и исправления ошибок и несоответствий в коде.
+- [Prettier](https://prettier.io/): Автоматический форматтер кода для поддержания единообразного стиля кодирования.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Установка
 
-## Type Support For `.vue` Imports in TS
+1. Клонируйте репозиторий:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+```bash
+git clone https://github.com/Suppolyar/my-work-template.git
+```
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+2. Перейдите в каталог проекта:
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+```bash
+cd your-project
+```
+
+3. Установите зависимости:
+
+```bash
+yarn install
+```
+
+## Запуск проекта
+
+После установки всех зависимостей вы можете запустить проект в режиме разработки:
+
+```bash
+yarn dev
+```
+
+
+## Рекомендуемая структура проекта
+
+```
+├── src/                  # Исходный код приложения
+│   ├── assets/           # Ресурсы приложения (изображения, шрифты и т.д.)
+│   ├── components/       # Vue-компоненты
+│   ├── layouts/          # Разметки страниц
+│   ├── routes/           # Маршруты приложения
+│   ├── store/            # Модули состояний Pinia
+│   ├── styles/           # Глобальные стили
+│   ├── utils/            # Утилитарные функции
+│   ├── views/            # Vue-компоненты для отображения страниц
+│   ├── App.vue           # Основной компонент приложения
+│   └── main.ts           # Точка входа в приложение
+├── .eslintrc.js          # Конфигурация ESLint
+├── .prettierrc.js        # Конфигурация Prettier
+└── vite.config.js        # Конфигурация Vite
+```
+
+## Содействие
+
+Если у вас есть предложения по улучшению проекта или вы нашли ошибку, пожалуйста, создайте новый Issue или Pull Request в [репозитории проекта](https://github.com/Suppolyar/my-work-template).
