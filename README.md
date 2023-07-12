@@ -16,7 +16,7 @@
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/Suppolyar/my-work-template.git
+git clone https://github.com/Suppolyar/starter-kit-vue-ts-tailwindcss.git
 ```
 
 2. Перейдите в каталог проекта:
