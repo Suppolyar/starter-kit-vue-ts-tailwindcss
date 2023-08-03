@@ -1,5 +1,5 @@
-import HomePage from "./HomePage.vue";
-import AboutPage from "./AboutPage.vue";
+import HomePage from "../pages/HomePage.vue";
+import AboutPage from "../pages/AboutPage.vue";
 
 export const mainRoutes = [
   { path: "/", component: HomePage },

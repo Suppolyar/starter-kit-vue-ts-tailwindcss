@@ -1,4 +1,4 @@
-import "./assets/style/style.css";
+import "./styles/style.css";
 import { createApp } from "vue";
 import { createPinia } from "pinia";
 import { router } from "./routes.ts";
