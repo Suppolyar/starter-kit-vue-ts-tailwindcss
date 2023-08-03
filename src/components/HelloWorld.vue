@@ -29,6 +29,9 @@
 </template>
 
 <script setup lang="ts">
+defineOptions({
+  name: "HelloWorld",
+});
 interface ITecnhology {
   name: string;
   textColor: string;
