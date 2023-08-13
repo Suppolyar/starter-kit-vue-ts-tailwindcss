@@ -1,64 +1,63 @@
 # Starter-Kit: Vue 3 + TypeScript + Vite + TailwindCSS + Eslint + Prettier
-Привет! Это небольшой шаблонный проект, который предоставляет готовую конфигурацию для быстрого старта разработки. Вам останется только клонировать проект и начать писать код 😇
+Hello! This is a small template project that provides a ready-made configuration for quickly starting development. You just need to clone the project and start writing code 😇
 
-## О шаблоне
+## About this Starter-Kit
+- [Vite](https://vitejs.dev/): A fast development tool for web applications with easy setup and live reloading.
+- [Vue 3](https://v3.vuejs.org/): A progressive JavaScript framework for building user interfaces.
+- [Pinia](https://pinia.esm.dev/): State manager for Vue 3 with TypeScript support.
+- [Vue Router](https://router.vuejs.org/): The official router for Vue applications.
+- [Tailwind CSS](https://tailwindcss.com/): Highly customizable CSS framework with simple and intuitive classes.
+- [ESLint](https://eslint.org/): A static code analysis tool to identify and fix errors and inconsistencies in the code.
+- [Prettier](https://prettier.io/): An automatic code formatter to maintain consistent code style.
 
-- [Vite](https://vitejs.dev/): Быстрый инструмент для разработки веб-приложений с простой настройкой и лайв-перезагрузкой.
-- [Vue 3](https://v3.vuejs.org/): Прогрессивный JavaScript-фреймворк для построения пользовательских интерфейсов.
-- [Pinia](https://pinia.esm.dev/): Состояний менеджер для Vue 3 с поддержкой TypeScript.
-- [Vue Router](https://router.vuejs.org/): Официальный маршрутизатор для приложений Vue.
-- [Tailwind CSS](https://tailwindcss.com/): Высоко настраиваемый CSS-фреймворк с простыми и интуитивно понятными классами.
-- [ESLint](https://eslint.org/): Инструмент статического анализа кода для выявления и исправления ошибок и несоответствий в коде.
-- [Prettier](https://prettier.io/): Автоматический форматтер кода для поддержания единообразного стиля кодирования.
+## Installation
 
-## Установка
-
-1. Клонируйте репозиторий:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/Suppolyar/starter-kit-vue-ts-tailwindcss.git
 ```
 
-2. Перейдите в каталог проекта:
+2. Navigate to the project directory:
 
 ```bash
 cd your-project
 ```
 
-3. Установите зависимости:
+3. Install dependencies:
 
 ```bash
 yarn install
 ```
 
-## Запуск проекта
+## Running the Project
 
-После установки всех зависимостей вы можете запустить проект в режиме разработки:
+After installing all dependencies, you can run the project in development mode:
 
 ```bash
 yarn dev
 ```
 
 
-## Рекомендуемая структура проекта
+## Recommended Project Structure
 
 ```
-├── src/                  # Исходный код приложения
-│   ├── assets/           # Ресурсы приложения (изображения, шрифты и т.д.)
-│   ├── components/       # Vue-компоненты
-│   ├── layouts/          # Разметки страниц
-│   ├── routes/           # Маршруты приложения
-│   ├── store/            # Модули состояний Pinia
-│   ├── styles/           # Глобальные стили
-│   ├── utils/            # Утилитарные функции
-│   ├── views/            # Vue-компоненты для отображения страниц
-│   ├── App.vue           # Основной компонент приложения
-│   └── main.ts           # Точка входа в приложение
-├── .eslintrc.js          # Конфигурация ESLint
-├── .prettierrc.js        # Конфигурация Prettier
-└── vite.config.js        # Конфигурация Vite
+├── src/                  # Application source code
+│   ├── assets/           # Application resources (images, fonts, etc.)
+│   ├── components/       # Vue components
+│   ├── layouts/          # Page layouts
+│   ├── routes/           # Application routes
+│   ├── store/            # Pinia state modules
+│   ├── styles/           # Global styles
+│   ├── utils/            # Utility functions
+│   ├── views/            # Vue components for page views
+│   ├── App.vue           # Main application component
+│   └── main.ts           # Application entry point
+├── .eslintrc.js          # ESLint configuration
+├── .prettierrc.js        # Prettier configuration
+└── vite.config.js        # Vite configuration
 ```
 
-## Содействие
+## Contribution
 
-Если у вас есть предложения по улучшению проекта или вы нашли ошибку, пожалуйста, создайте новый Issue или Pull Request в [репозитории проекта](https://github.com/Suppolyar/my-work-template).
+If you have suggestions for improving the project or you've found a bug, please create a new Issue or Pull Request in the [project repository](https://github.com/Suppolyar/my-work-template).
